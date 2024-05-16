@@ -2,7 +2,7 @@
 
 :root{
     --branco: white;
-    --cor-de-fundo: #6495ED;
+    --cor-de-fundo: #00162E;
     --fundo-senha: #00244D;
     --fundo-texto: #001E40;
     --borda: #0075FF;
@@ -104,6 +104,16 @@ body{
     border-bottom: 2px solid var(--borda);
     margin: 0;
     font-size: 24px;
+}
+
+label{
+    font-size: 20px;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
